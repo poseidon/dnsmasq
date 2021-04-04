@@ -1,5 +1,5 @@
 DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
-VERSION=$(shell git rev-parse HEAD)
+VERSION=$(shell git describe --tags --match=v* --always --dirty)
 
 LOCAL_REPO=poseidon/dnsmasq
 IMAGE_REPO=quay.io/poseidon/dnsmasq
