@@ -1,4 +1,4 @@
-# dnsmasq [![Docker Repository on Quay](https://quay.io/repository/poseidon/dnsmasq/status "Docker Repository on Quay")](https://quay.io/repository/poseidon/dnsmasq)
+# dnsmasq [![Quay](https://img.shields.io/badge/container-quay-green)](https://quay.io/repository/poseidon/dnsmasq)
 
 `dnsmasq` provides a container image for running DHCP, proxy DHCP, DNS, and/or TFTP with [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html). Use it to test different network setups with clusters of network bootable machines.
 
@@ -46,7 +46,7 @@ Configuration arguments can be provided as flags. Check the dnsmasq [man pages](
 Build a container image locally.
 
 ```
-make docker-image
+make image
 ```
 
 Run the image with Docker on the `docker0` bridge (default).
