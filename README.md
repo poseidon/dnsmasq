@@ -1,4 +1,4 @@
-# dnsmasq [![Quay](https://img.shields.io/badge/container-quay-green)](https://quay.io/repository/poseidon/dnsmasq)
+# dnsmasq [![Quay](https://img.shields.io/badge/container-quay-green)](https://quay.io/repository/poseidon/dnsmasq) [![Sponsors](https://img.shields.io/github/sponsors/poseidon?logo=github)](https://github.com/sponsors/poseidon) [![Twitter](https://img.shields.io/badge/follow-news-1da1f2?logo=twitter)](https://twitter.com/poseidonlabs)
 
 `dnsmasq` provides a container image for running DHCP, proxy DHCP, DNS, and/or TFTP with [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html). Use it to test different network setups with clusters of network bootable machines.
 
