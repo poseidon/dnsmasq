@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.16.3
+FROM docker.io/alpine:3.17.0
 LABEL maintainer="Dalton Hubble <dghubble@gmail.com>"
 RUN apk -U add dnsmasq curl
 COPY tftpboot /var/lib/tftpboot
