@@ -1,5 +1,6 @@
 # dnsmasq
 [![Quay](https://img.shields.io/badge/container-quay-green)](https://quay.io/repository/poseidon/dnsmasq)
+[![Workflow](https://github.com/poseidon/dnsmasq/actions/workflows/build.yaml/badge.svg)](https://github.com/poseidon/dnsmasq/actions/workflows/build.yaml?query=branch%3Amain)
 [![Sponsors](https://img.shields.io/github/sponsors/poseidon?logo=github)](https://github.com/sponsors/poseidon)
 [![Mastodon](https://img.shields.io/badge/follow-news-6364ff?logo=mastodon)](https://fosstodon.org/@poseidon)
 
