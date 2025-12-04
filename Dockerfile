@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.22.2
+FROM docker.io/alpine:3.23.0
 LABEL maintainer="Dalton Hubble <dghubble@gmail.com>"
 LABEL org.opencontainers.image.title="dnsmasq",
 LABEL org.opencontainers.image.source="https://github.com/poseidon/dnsmasq"
