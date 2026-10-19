@@ -2,7 +2,7 @@
 set -eu
 
 DEST=${1:-"tftpboot"}
-SOURCE=${$2:-"x86_64-efi/ipxe.efi"}
+SOURCE=${2:-"x86_64-efi/ipxe.efi"}
 if [ ! -d $DEST ]; then
   echo "Creating directory $DEST"
   mkdir -p $DEST
