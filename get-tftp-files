@@ -2,7 +2,7 @@
 set -eu
 
 DEST=${1:-"tftpboot"}
-
+SOURCE=${2:-"x86_64-efi/ipxe.efi"}
 if [ ! -d $DEST ]; then
   echo "Creating directory $DEST"
   mkdir -p $DEST
@@ -10,4 +10,4 @@ fi
 
 curl -s -o $DEST/undionly.kpxe http://boot.ipxe.org/undionly.kpxe
 cp $DEST/undionly.kpxe $DEST/undionly.kpxe.0
-curl -s -o $DEST/ipxe.efi http://boot.ipxe.org/ipxe.efi
+curl -s -o $DEST/ipxe.efi http://boot.ipxe.org/${SOURCE}
